@@ -1,12 +1,6 @@
-export default function Page({
-	searchParams: { checkoutId: _checkoutId },
-}: {
-	searchParams: {
-		checkoutId: string;
-	};
-}) {
+export default function Page() {
 	// Checkout has been confirmed
-	// Now, make sure to capture the Checkout.updated webhook event to update the order status in your system
+	// Make sure to capture the Checkout.updated webhook event to update the order status in your system
 
 	return (
 		<div>
