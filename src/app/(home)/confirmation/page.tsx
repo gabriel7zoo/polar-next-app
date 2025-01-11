@@ -1,5 +1,5 @@
 export default function Page({
-	searchParams: { checkoutId },
+	searchParams: { checkoutId: _checkoutId },
 }: {
 	searchParams: {
 		checkoutId: string;
